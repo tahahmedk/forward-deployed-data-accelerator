@@ -1,0 +1,16 @@
+{
+  "expected_source_fields": [
+    "Client ID",
+    "Client Name",
+    "EmailAddress",
+    "AccountStatus",
+    "CreatedOn"
+  ],
+  "overrides": {
+    "Client ID": "customer_id",
+    "Client Name": "customer_name",
+    "EmailAddress": "email",
+    "AccountStatus": "status",
+    "CreatedOn": "created_date"
+  }
+}

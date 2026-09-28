@@ -1,0 +1,5 @@
+Client ID,Client Name,EmailAddress,AccountStatus,CreatedOn,LegacyFlag
+1001,Northwind Labs,ops@northwind.example,active,2026-01-10,Y
+1002,Aperture Health,,pending,2026-02-14,N
+1002,Contoso Research,team@contoso.example,paused,03/01/2026,N
+,Fourth Coffee,hello@fourth.example,active,2026-03-05,Y

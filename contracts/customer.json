@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "name": "customer_id"
+    },
+    {
+      "name": "customer_name"
+    },
+    {
+      "name": "email"
+    },
+    {
+      "name": "status"
+    },
+    {
+      "name": "created_date"
+    }
+  ],
+  "quality": {
+    "required": [
+      "customer_id",
+      "customer_name",
+      "status"
+    ],
+    "unique": [
+      "customer_id"
+    ],
+    "allowed": {
+      "status": [
+        "active",
+        "inactive",
+        "pending"
+      ]
+    },
+    "formats": {
+      "email": "email",
+      "created_date": "date"
+    }
+  }
+}
